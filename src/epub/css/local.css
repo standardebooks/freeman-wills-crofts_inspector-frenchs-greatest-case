@@ -1,2 +1,118 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"] header{
+	font-variant: normal;
+	margin: 0;
+	text-align: left;
+}
+
+[epub|type~="se:letter.dateline"]{
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+/* letters in chapters 5 and 9 */
+[epub|type~="z3998:letter"] footer > p:nth-child(3){
+	font-style: italic;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+/* table styles for chapter 17 */
+table{
+	border-collapse: collapse;
+	counter-reset: row;
+	margin: 1em auto;
+}
+
+caption{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+
+th{
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
+
+td{
+	padding: 0.25em;
+}
+
+td:first-child{
+	counter-increment: row;
+	width: 16em;
+}
+
+td + td{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+table:first-of-type tbody td:first-child::before{
+	content: counter(row) ".";
+	display: inline-block;
+	margin-right: 0.5em;
+	text-align: right;
+	width: 1.5em;
+}
+
+tfoot > tr:first-child td:not(:empty),
+tfoot > tr:last-child td:not(:empty){
+	border-top: 1px solid;
+}
+
+table:nth-of-type(n + 5) td{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: left;
+}
+
+table:nth-of-type(n + 5) td:first-child{
+	text-align: right;
+	width: auto;
+}
+
+table:nth-of-type(n + 5) td:first-child::after{
+	content: "—";
+}
