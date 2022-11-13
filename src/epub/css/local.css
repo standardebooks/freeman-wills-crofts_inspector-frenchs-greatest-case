@@ -15,7 +15,7 @@ footer{
 [epub|type~="z3998:letter"] header{
 	font-variant: normal;
 	margin: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="se:letter.dateline"]{
@@ -105,7 +105,7 @@ tfoot > tr:last-child td:not(:empty){
 table:nth-of-type(n + 5) td{
 	padding-left: 0;
 	padding-right: 0;
-	text-align: left;
+	text-align: initial;
 }
 
 table:nth-of-type(n + 5) td:first-child{

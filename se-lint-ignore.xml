@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-13.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>“Oh, Johnny!” is the name of a play.</reason>
+		</ignore>
+		<ignore>
+			<code>t-042</code>
+			<reason>“Oh, Johnny!” is the name of a play.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
