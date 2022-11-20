@@ -60,7 +60,6 @@ p span.i1{
 /* table styles for chapter 17 */
 table{
 	border-collapse: collapse;
-	counter-reset: row;
 	margin: 1em auto;
 }
 
@@ -80,7 +79,6 @@ td{
 }
 
 td:first-child{
-	counter-increment: row;
 	width: 16em;
 }
 
@@ -89,16 +87,15 @@ td + td{
 	text-align: right;
 }
 
-table:first-of-type tbody td:first-child::before{
-	content: counter(row) ".";
+table:first-of-type span{
 	display: inline-block;
 	margin-right: 0.5em;
 	text-align: right;
 	width: 1.5em;
 }
 
-tfoot > tr:first-child td:not(:empty),
-tfoot > tr:last-child td:not(:empty){
+tfoot > tr:first-child td + td,
+tfoot > tr:last-child td + td{
 	border-top: 1px solid;
 }
 
