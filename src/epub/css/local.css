@@ -4,7 +4,6 @@
 header{
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 footer{
@@ -71,7 +70,7 @@ caption{
 th{
 	font-style: italic;
 	font-weight: normal;
-	text-align: center;
+	text-align: right;
 }
 
 td{
