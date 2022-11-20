@@ -42,9 +42,10 @@
 		<meta id="collection-1" property="belongs-to-collection">Inspector French</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">An inspector is called in to investigate the murder of a diamond trading firm’s employee along with the theft of their jewels.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Inspector French is called in by his Superintendent at Scotland Yard to investigate a late-night murder in the office of a Hatton Garden diamond merchants. When he gets there, he finds not just the corpse, but an open safe missing its contents of diamonds and money. Although the clues seem meager at first, French soon picks up a trail that leads him to mainland Europe and back, steadily bringing him closer to a solution to the case.&lt;/p&gt;
+			&lt;p&gt;This is the first in &lt;a href="https://standardebooks.org/ebooks/freeman-wills-crofts"&gt;Freeman Wills Crofts’&lt;/a&gt; long-running &lt;a href="https://standardebooks.org/collections/inspector-french"&gt;Inspector French&lt;/a&gt; series. French, a well mannered London detective, works through the crimes in front of him in a methodical way, peeling back the layers of intrigue and mystery to expose the core of the problem as much to the reader as to himself. Crofts was a well-regarded author in the Golden Age of detective fiction, and a founder member of the Detection Club, whose members included &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;&lt;abbr&gt;G. K.&lt;/abbr&gt; Chesterton&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/baroness-orczy"&gt;Baroness Orczy&lt;/a&gt;, and many more household names.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/65553</dc:source>
