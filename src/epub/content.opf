@@ -42,6 +42,8 @@
 		<meta id="collection-1" property="belongs-to-collection">Inspector French</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
+		<meta id="collection-2" property="belongs-to-collection">Haycraft Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
 		<dc:description id="description">An inspector is called in to investigate the murder of a diamond trading firm’s employee and the theft of their jewels.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Inspector French is called in by his Superintendent at Scotland Yard to investigate a late-night murder in the office of a Hatton Garden diamond merchants. When he gets there, he finds not just the corpse, but an open safe missing its contents of diamonds and money. Although the clues seem meager at first, French soon picks up a trail that leads him to mainland Europe and back, steadily bringing him closer to a solution to the case.&lt;/p&gt;
