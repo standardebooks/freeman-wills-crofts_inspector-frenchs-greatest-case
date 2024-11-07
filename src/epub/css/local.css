@@ -74,7 +74,7 @@ th{
 }
 
 td{
-	padding: 0.25em;
+	padding: .25em;
 }
 
 td:first-child{
@@ -88,7 +88,7 @@ td + td{
 
 table:first-of-type span{
 	display: inline-block;
-	margin-right: 0.5em;
+	margin-right: .5em;
 	text-align: right;
 	width: 1.5em;
 }
