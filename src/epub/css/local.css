@@ -112,3 +112,7 @@ table:nth-of-type(n+5) td:first-child{
 table:nth-of-type(n+5) td:first-child::after{
 	content: "—";
 }
+
+.telegram{
+	font-variant: all-small-caps;
+}
