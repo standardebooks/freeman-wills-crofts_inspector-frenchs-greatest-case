@@ -10,4 +10,10 @@
 			<reason>“Oh, Johnny!” is the name of a play.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-17.xhtml">
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
