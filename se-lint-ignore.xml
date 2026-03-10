@@ -2,14 +2,19 @@
 <se-lint-ignore>
 	<file path="chapter-13.xhtml">
 		<ignore code="t-017">
+			<line>58</line>
+			<line>91</line>
+			<line>108</line>
 			<reason>“Oh, Johnny!” is the name of a play.</reason>
 		</ignore>
 		<ignore code="y-005">
+			<line>58</line>
 			<reason>“Oh, Johnny!” is the name of a play.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-17.xhtml">
 		<ignore code="y-035">
+			<line>437</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
