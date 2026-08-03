@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/freeman-wills-crofts/inspector-frenchs-greatest-case</dc:identifier>
 		<dc:date>2022-11-20T20:09:50Z</dc:date>
@@ -46,11 +46,11 @@
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<dc:description id="description">An inspector is called in to investigate the murder of a diamond trading firm’s employee and the theft of their jewels.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An inspector is called in to investigate the murder of a diamond trading firm’s employee and the theft of their jewels.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Inspector French is called in by his Superintendent at Scotland Yard to investigate a late-night murder in the office of a Hatton Garden diamond merchants. When he gets there, he finds not just the corpse, but an open safe missing its contents of diamonds and money. Although the clues seem meager at first, French soon picks up a trail that leads him to mainland Europe and back, steadily bringing him closer to a solution to the case.&lt;/p&gt;
 			&lt;p&gt;This is the first in &lt;a href="https://standardebooks.org/ebooks/freeman-wills-crofts"&gt;Freeman Wills Crofts’&lt;/a&gt; long-running &lt;a href="https://standardebooks.org/collections/inspector-french"&gt;Inspector French&lt;/a&gt; series. French, a well mannered London detective, works through the crimes in front of him in a methodical way, peeling back the layers of intrigue and mystery to expose the core of the problem as much to the reader as to himself.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/65553</dc:source>
 		<dc:source>https://archive.org/details/inspectorfrenchs0000crof</dc:source>
